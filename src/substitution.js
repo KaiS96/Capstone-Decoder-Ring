@@ -32,24 +32,22 @@ const substitutionModule = (function () {
     //   .map(letter => alphabetRef[letter] || input).join('')
     // }
     // return input
-    
 
     for (let i = 0; i < input.length; i++) {
-      if(input[i] === " "){
-        result += input[i]
+      if (input[i] === " ") {
+        result += input[i];
       }
-      if(encode){
-      if (alphabetRef.includes(input[i])) {
-        let alphabetIndex = alphabetRef.indexOf(input[i])
-        result += alphabet[alphabetIndex]
+      if (encode) {
+        if (alphabetRef.includes(input[i])) {
+          let alphabetIndex = alphabetRef.indexOf(input[i]);
+          result += alphabet[alphabetIndex];
+        }
+      } else if (!encode) {
+        if (alphabet.includes(input[i])) {
+          let alphabetIndex = alphabet.indexOf(input[i]);
+          result += alphabetRef[alphabetIndex];
+        }
       }
-    } else if(!encode){
-      if (alphabet.includes(input[i])) {
-        let alphabetIndex = alphabet.indexOf(input[i])
-        result += alphabetRef[alphabetIndex]
-      }
-    }
-      
     }
     return result;
   }
