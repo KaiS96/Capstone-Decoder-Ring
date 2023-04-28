@@ -2,7 +2,7 @@
 
 ## Thanks for checking out my project!
 
-### This project is based on planning a surprise birthday party for one of your friends who loves escape rooms and puzzles.
+This project is based on planning a surprise birthday party for one of your friends who loves escape rooms and puzzles.
 
 <img width="500" alt="DecoderRing" src="https://user-images.githubusercontent.com/119773913/235230904-3bcadede-ed61-463b-be9f-00478d70bfa7.png">
 
