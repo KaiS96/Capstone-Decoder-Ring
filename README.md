@@ -18,3 +18,4 @@ The Polybius square is a cipher that is achieved by arranging a typical alphabet
 
 The substitution cipher requires a standard alphabet and a substitution alphabet. Letters from the standard alphabet will be transposed to the substitution alphabet. This cipher requires that the recipient have the substitution alphabet, otherwise it will be difficult for them to decode the message.
 
+**Technologies:** Javascript, HTML, CSS, Node.js, Bootstrap, Mocha, Chai
